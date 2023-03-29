@@ -9,8 +9,6 @@ This is a documentation example about experimental setup and progress note of th
 
 
 .. toctree::
-  :maxdepth: 0
-  :caption: General Setup
   
   Installation
 
