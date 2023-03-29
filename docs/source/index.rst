@@ -10,25 +10,8 @@ This is a documentation example about experimental setup and progress note of th
 
 .. toctree::
   :maxdepth: 0
-  :caption: Instructions
-
-  Instructions/Wind Tunnel Setup
-  Instructions/Sensors & Wirings
-
-.. toctree::
-  :maxdepth: 0
   :caption: General Setup
   
   General Setup/Angle Measurement
-  General Setup/Force Measurement
-  General Setup/Pressure Measurement
-  General Setup/Power Measurement
 
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Progress Notes
-
-   Progress Notes/March 2023
-   Progress Notes/May 2023
 
