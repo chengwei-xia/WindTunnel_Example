@@ -1,22 +1,34 @@
-Welcome to Lumache's documentation!
-===================================
+Wind Tunnel Experiment for Ahmed Body Drag Reduction using Active Flow Control by Reinforcement Learning
+====================================================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+This is a documentation example about experimental setup and progress note of the Ahmed body flow control experiment in the wind tunnel at Imperial College London.
 
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+- **PXI-PC Communication and Data Acquisition**: A UDP-based communication is used for transfering data between a PXI DAQ system and a host PC
+- **Labview-Python Interaction Design**: Labview codes were developed for data acquisition and Python codes were used to implement reinforcement learning
+- **RL Algorithm**: The RL Algorithm is provided by StableBaselines 3 and StableBaselines 3 contrib
 
-.. note::
-
-   This project is under active development.
-
-Contents
---------
 
 .. toctree::
+  :maxdepth: 0
+  :caption: Instructions
 
-   usage
-   api
+  Instructions/Wind Tunnel Setup
+  Instructions/Sensors & Wirings
+
+.. toctree::
+  :maxdepth: 0
+  :caption: General Setup
+  
+  General Setup/Angle Measurement
+  General Setup/Force Measurement
+  General Setup/Pressure Measurement
+  General Setup/Power Measurement
+
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Progress Notes
+
+   Progress Notes/March 2023
+   Progress Notes/May 2023
+
