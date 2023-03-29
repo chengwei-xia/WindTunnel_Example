@@ -12,6 +12,6 @@ This is a documentation example about experimental setup and progress note of th
   :maxdepth: 0
   :caption: General Setup
   
-  General Setup/Angle Measurement
+  Installation
 
 
